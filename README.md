@@ -7,6 +7,15 @@ in virtual environment.
 In order to run this code, you'll need Unity Environment that 
 Udacity team provided in Deep Reinforcement Learning Nanodegree. 
 
+### Environment
+
+In this environment, a double-jointed arm can move to target locations. 
+The goal of the agent is to maintain its position at the target location for as many time steps as possible.
+
+The observation space consists of 33 variables corresponding to position, rotation, velocity, and angular velocities of the arm. 
+
+Environment is considered solved when agent receives score 30 on average for 100 episodes.
+
 ### Training 
 
 For training, see file `train_agent.py`
